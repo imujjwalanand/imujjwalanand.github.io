@@ -20,7 +20,7 @@ window.onload = function() {
   var messages = [
     'Hello there 👋',
     'I\'m Ujjwal',
-    'Glad you visited! 😃',
+    'Glad you visited! 😄',
     'I\'m 22, Computer Science enthusiast 💻, Messi fan 🇦🇷, football fanatic ⚽️, and a lot more.. ',
     'I did my Bachelor\'s of technology from IIT Jodhpur 🐫 specialising in Computer Science.',
 	'I am currently working with Apttus Soft. as Associate Software Engineer 🤓',
