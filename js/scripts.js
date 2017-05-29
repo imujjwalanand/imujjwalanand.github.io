@@ -20,9 +20,10 @@ window.onload = function() {
   var messages = [
     'Hello there 👋',
     'I\'m Ujjwal',
-    'Thanks for visiting me! 😃',
-    'I\'m 21, CS-enthusiast, developer, Footballer, GOT fan etc.',
-    'And also I am currently a junior majoring <br> in Computer Science at IIT Jodhpur 💻🌲',
+    'Glad you visited! 😃',
+    'I\'m 22, Computer Science enthusiast 💻, Messi fan 🇦🇷, football fanatic ⚽️, and a lot more.. ',
+    'I did my Bachelor\'s of technology from IIT Jodhpur 🐫 specialising in Computer Science.',
+	'I am currently working with Apttus Soft. as Associate Software Engineer 🤓',
     'Want to know more about me? <br> Visit my full website <a target="_blank" href="http://home.iitj.ac.in/~ug201314018/index1.html">here</a> 🔍',
     'or email me at Imujjwalanand[at]gmail.com 📥',
     getCurrentTime(),
