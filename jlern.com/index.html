@@ -25,7 +25,20 @@
 <link href="wordpress/wp-content/themes/jlerndesign/css/icons.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="wordpress/wp-content/themes/jlerndesign/css/tinyscrollbar.css" type="text/css" media="screen"/>
 <script type="text/javascript">var path = 'wordpress/wp-content/themes/jlerndesign/index.html'; var url = 'wordpress/index.html';</script>
-
+<script>
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var isEscape = false;
+    if ("key" in evt) {
+        isEscape = (evt.key == "Escape" || evt.key == "Esc");
+    } else {
+        isEscape = (evt.keyCode == 27);
+    }
+    if (isEscape) {
+        document.getElementById("logo").click();
+    }
+};
+</script>
 <link rel='stylesheet' id='rsm-min-css-0-css'  href='wordpress/wp-content/rshcp-cache/css/rsm-min-css-0.css' type='text/css' media='all' />
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
