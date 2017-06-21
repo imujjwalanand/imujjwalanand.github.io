@@ -1,0 +1,23 @@
+/* Tiny Scrollbar */
+[id^="scrollbar"] { width: 100%; margin: 0; }
+[id^="scrollbar"] .viewport { width: 100%; overflow: hidden; position: relative; }
+[id^="scrollbar"] .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; width: 100%; }
+[id^="scrollbar"] .scrollbar{ /*background: transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0;*/position: absolute; background-position: 0 0; top:0; right:0px; width: 20px; z-index: 50; height: 200px; display: none;}
+[id^="scrollbar"] .track { height: 200px; width:30px; position: relative; padding: 0 1px; }
+[id^="scrollbar"] .thumb { background-color: transparent; height: 20px; width: 20px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+[id^="scrollbar"] .thumb-inner { background-color:#555; opacity: .4; border-radius: 8px; height: 110px; width: 8px; margin:5px 7px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+[id^="scrollbar"] .thumb .end { overflow: hidden; height: 5px; width: 25px; }
+[id^="scrollbar"] .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#scrollbar0 .viewport {height: 550px;}
+#scrollbar1 .viewport {height: 352px;}
+#scrollbar2 .viewport {height: 605px;}
+#scrollbar3 .viewport {height: 600px;}
+
+#scrollbar-projects .viewport{height: 304px;}
+#scrollbar-projects .scrollbar{display: none; z-index: 60;}
+
+#scrollbar-about .scrollbar{visibility: hidden; top:10px;}
+#scrollbar-about .viewport {height: 605px;}
+#scrollbar1 .thumb-inner{height: 60px;}
