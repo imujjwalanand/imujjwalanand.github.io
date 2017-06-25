@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ujjwal Anand</title>
+</head>
+
+<body>
+
+
+<audio autoplay controls id="music" >
+  <source src="best_song_ever.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+
+<button onclick="setVolume()" type="button">Click me!</button>
+
+<script>
+
+function sleepFor( sleepDuration ){
+    var now = new Date().getTime();
+    while(new Date().getTime() < now + sleepDuration){ /* do nothing */ } 
+}
+
+function setVolume(){
+	// var player = document.getElementById("music");
+	// for(i=0; i<=100;i++)
+	// {
+	// 	sleepFor(100);
+	// 	console.log(i/100);
+	// 	music.volume = i/100;
+	// }
+	// player.volume = 0.0;
+	// alert(player.volume);
+}
+
+</script>
+
+</body>
+</html>
