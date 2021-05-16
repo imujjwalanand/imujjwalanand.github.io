@@ -19,6 +19,7 @@ window.onload = function() {
   }
 
   var getAge = function(){
+    const moment= require('moment')
     var a = moment([1995, 4]);
     var currDate = new Date();
     var currMonth = currDate.getMonth();
