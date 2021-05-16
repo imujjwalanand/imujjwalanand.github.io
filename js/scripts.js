@@ -17,13 +17,22 @@ window.onload = function() {
     if (current >= 22 || current < 5) return 'Have a good night! 🌃';
   }
 
+  var getAge = function(){
+    var a = moment([1995, 4]);
+    var currDate = new Date();
+    var currMonth = currDate.getMonth();
+    var currYear = currDate.getFullYear();
+    var b = moment([currYear, currMonth]);
+    return (a.diff(b, 'years'));
+  }
+
   var messages = [
     'Hello there 👋',
     'I\'m Ujjwal',
     'Glad you visited! 😄',
-    'I\'m 22, Computer Science enthusiast 💻, Messi fan 🇦🇷, football fanatic ⚽️, and a lot more.. ',
+    'I\'m' + getAge() + ' , Computer Science enthusiast 💻, Messi fan 🇦🇷, football fanatic ⚽️, and a lot more.. ',
     'I did my Bachelor\'s of technology from IIT Jodhpur 🐫 specialising in Computer Science.',
-	'I am currently working with Apttus Soft. as Associate Software Engineer 🤓',
+	'I am currently working with Delhivery. as a Backend Software Engineer 🤓 Mostly playing around with Python, Dynamo, Elastic on Serverless concepts',
     'Want to know more about me? <br> Visit my full website <a target="_blank" href="http://home.iitj.ac.in/~ug201314018/index1.html">here</a> 🔍',
     'or email me at Imujjwalanand[at]gmail.com 📥',
     getCurrentTime(),
