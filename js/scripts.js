@@ -1,5 +1,4 @@
 //Copyright - Julian Garnier
-const moment= require('moment')
 
 window.onload = function() {
 
